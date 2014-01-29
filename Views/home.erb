@@ -6,7 +6,6 @@
 </section>
 
 <%  @notes.each do |note| %>
-        <% p note.id %>
 	<article <%= 'class="complete"' if note.complete %>>
 		<p>
 			<%= note.content %>
